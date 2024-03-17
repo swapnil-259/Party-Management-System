@@ -1,0 +1,24 @@
+# Ignore all files in Headquarters/EduAdmin/migrations folder
+Party/migrations/*
+Backend/__pycache__/*
+Party/__pycache__/*
+Leave/migrations/*
+Leave/__pycache__/*
+Reimbursement/migrations/*
+Reimbursement/__pycache__/*
+Party/api/__pycache__/*
+StudentDetails/migrations/*
+StudentDetails/__pycache__
+StudentDetails/api/__pycache__/*
+Reimbursement/api/__pycache__/*
+Leave/api/__pycache__/*
+
+
+
+
+# But include Headquarters/EduAdmin/migrations/__init__.py
+!Party/migrations/__init__.py
+!Leave/migrations/__init__.py
+!Reimbursement/migrations/__init__.py
+!StudentDetails/migrations/__init__.py
+# !EduPaper/migrations/__init__.py
